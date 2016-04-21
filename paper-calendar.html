@@ -1,5 +1,6 @@
 <link rel="import" href="../polymer/polymer.html">
 <link rel="import" href="../iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../iron-flex-layout/iron-flex-layout-classes.html">
 <link rel="import" href="../iron-icon/iron-icon.html">
 <link rel="import" href="../iron-icons/iron-icons.html">
 <link rel="import" href="../paper-ripple/paper-ripple.html">
@@ -9,7 +10,7 @@
 
 <dom-module id="paper-calendar">
   <template>
-    <style>
+    <style include="iron-flex iron-flex-reverse iron-flex-factors iron-flex-alignment">
       :host {
         display: block;
         box-sizing: border-box;
