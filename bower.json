@@ -2,9 +2,10 @@
   "name": "paper-date-picker",
   "version": "1.1.2",
   "authors": [
-    "Ben Davis <bendavis78@gmail.com>"
+    "Ben Davis <bendavis78@gmail.com>",
+    "Raymond Ie <ie.raymond@gmail.com>"
   ],
-  "description": "Provides a responsive date picker based on the material design spec",
+  "description": "Forked of Ben Davis's paper date picker based on the material design spec",
   "keywords": [
     "web-component",
     "web-components",
@@ -14,7 +15,6 @@
   ],
   "main": "paper-date-picker.html",
   "license": "MIT",
-  "homepage": "http://bendavis78.github.io/paper-date-picker/",
   "ignore": [
     "/.*",
     "/tests/"
