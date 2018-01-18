@@ -177,10 +177,11 @@
             <template is="dom-repeat" items="{{month.weeks}}" as="row">
               <div class="month-row layout horizontal justified flex">
                 <template is="dom-repeat" items="{{row}}">
-                  <div class="month-col">
-                    <div class$="{{_getDayClass('day-item selection', item.date, today, date)}}"
+                  <div on-tap="_tapDay" class="month-col">
+                    <div data-x="HONK" class$="{{_getDayClass('day-item selection', item.date, today, date)}}"
                       disabled$="{{_isDisabled(item.day, item.date, minDate, maxDate)}}"
-                      on-tap="_tapDay" date$="{{item.name}}">
+                       date$="{{item.name}}"
+                     >
                       <div class="day">{{item.day}}</div>
                     </div>
                   </div>
